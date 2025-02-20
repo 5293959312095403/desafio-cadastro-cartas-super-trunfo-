@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 
-
-
 int main(){
     int populacao, pontosturisticos, populacao2, pontosturisticos2;
     char estado, estado2;
@@ -11,9 +9,9 @@ int main(){
 
 
     printf("-- CARTA 1 --\n");
-    printf("Digite a letra do Estado: ");
+    printf("Digite a letra do Estado(EX: A, B, etc.): ");
     scanf(" %c", &estado);
-    printf("Digite o código da carta: ");
+    printf("Digite o código da carta(EX: A01, B01, etc.): ");
     scanf(" %49s", CodigoCarta);
     getchar();
 
